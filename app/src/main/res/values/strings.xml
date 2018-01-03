@@ -10,4 +10,9 @@
 
     <string name="felix">Felix</string>
     <string name="touch_button_clicked_message">Touch button has been clicked</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+
+    <string name="status_bar_notification">Status bar notification</string>
+    <string name="notification_title">Red Alarm</string>
+    <string name="notification_contents">Focus on studying</string>
 </resources>

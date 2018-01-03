@@ -26,6 +26,10 @@
         <activity
             android:name=".TouchSizeActivity"
             android:label="@string/title_activity_touch_size"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

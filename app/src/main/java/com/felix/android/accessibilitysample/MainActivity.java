@@ -30,15 +30,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        /*Button btnFirstMenu = findViewById(R.id.first_accessibility_menu);
+        Button btnSecondMenu = findViewById(R.id.second_accessibility_menu);
 
-        btnFirstMenu.setOnClickListener(new View.OnClickListener() {
+        btnSecondMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, AccessibilityFocusActivity.class);
+                Intent intent = new Intent(MainActivity.this, NotificationActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
 
         Button btnThirdMenu = findViewById(R.id.third_accessibility_menu);
 
@@ -50,14 +50,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
     }
 
     @Override
