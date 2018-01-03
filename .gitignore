@@ -1,9 +1,22 @@
+# Build application files
+/build/
+
+# User-specific configurations
 *.iml
-.gradle
+/.idea
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
+
+# Gradle generated files
+/gradle
+.gradle
+
+# OS-specific files
 .DS_Store
-/build
+
+# Signing files
+.signing
+
 /captures
 .externalNativeBuild
