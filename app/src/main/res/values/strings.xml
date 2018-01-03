@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">accessibilitysample</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_accessibility_focus">AccessibilityFocusActivity</string>
+
+    <string name="accessibility_focus_button">Accessibility Focus</string>
+    <string name="notification">Notification</string>
+    <string name="touch_size">Touch Size Larger</string>
+    <string name="title_activity_touch_size">TouchSizeActivity</string>
+
+    <string name="felix">Felix</string>
+    <string name="touch_button_clicked_message">Touch button has been clicked</string>
 </resources>

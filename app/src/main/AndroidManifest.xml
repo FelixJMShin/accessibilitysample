@@ -19,6 +19,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AccessibilityFocusActivity"
+            android:label="@string/title_activity_accessibility_focus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TouchSizeActivity"
+            android:label="@string/title_activity_touch_size"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
